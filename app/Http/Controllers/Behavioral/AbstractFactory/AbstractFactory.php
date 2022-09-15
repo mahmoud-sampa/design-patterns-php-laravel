@@ -1,6 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Behavioral\AbstractFactory\Factories;
+namespace App\Http\Controllers\Behavioral\AbstractFactory;
+
+use App\Http\Controllers\Behavioral\AbstractFactory\Factories\RoundedShapeFactory;
+use App\Http\Controllers\Behavioral\AbstractFactory\Factories\ShapeFactory;
 
 class AbstractFactory
 {

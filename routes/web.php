@@ -14,4 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $factory = new \App\Http\Controllers\Behavioral\FactoryMethod\ShapeFactory('square');
+    $factory->shape()->draw();
+
 });

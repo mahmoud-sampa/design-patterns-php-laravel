@@ -2,7 +2,7 @@
 
 namespace Tests\Creational;
 
-use App\Http\Controllers\Behavioral\AbstractFactory\Factories\AbstractFactory;
+use App\Http\Controllers\Behavioral\AbstractFactory\AbstractFactory;
 use App\Http\Controllers\Behavioral\AbstractFactory\Shapes\Rectangle;
 use App\Http\Controllers\Behavioral\AbstractFactory\Shapes\RoundedRectangle;
 use App\Http\Controllers\Behavioral\AbstractFactory\Shapes\RoundedSquare;
