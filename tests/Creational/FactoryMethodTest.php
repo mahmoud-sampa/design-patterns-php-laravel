@@ -2,9 +2,9 @@
 
 namespace Tests\Creational;
 
-use App\Http\Controllers\Behavioral\FactoryMethod\ShapeFactory;
-use App\Http\Controllers\Behavioral\FactoryMethod\Shapes\Rectangle;
-use App\Http\Controllers\Behavioral\FactoryMethod\Shapes\Square;
+use App\Http\Controllers\Creational\FactoryMethod\ShapeFactory;
+use App\Http\Controllers\Creational\FactoryMethod\Shapes\Rectangle;
+use App\Http\Controllers\Creational\FactoryMethod\Shapes\Square;
 use Tests\TestCase;
 
 class FactoryMethodTest extends TestCase

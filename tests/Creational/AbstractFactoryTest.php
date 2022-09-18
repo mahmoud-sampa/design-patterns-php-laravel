@@ -2,11 +2,11 @@
 
 namespace Tests\Creational;
 
-use App\Http\Controllers\Behavioral\AbstractFactory\AbstractFactory;
-use App\Http\Controllers\Behavioral\AbstractFactory\Shapes\Rectangle;
-use App\Http\Controllers\Behavioral\AbstractFactory\Shapes\RoundedRectangle;
-use App\Http\Controllers\Behavioral\AbstractFactory\Shapes\RoundedSquare;
-use App\Http\Controllers\Behavioral\AbstractFactory\Shapes\Square;
+use App\Http\Controllers\Creational\AbstractFactory\AbstractFactory;
+use App\Http\Controllers\Creational\AbstractFactory\Shapes\Rectangle;
+use App\Http\Controllers\Creational\AbstractFactory\Shapes\RoundedRectangle;
+use App\Http\Controllers\Creational\AbstractFactory\Shapes\RoundedSquare;
+use App\Http\Controllers\Creational\AbstractFactory\Shapes\Square;
 use Tests\TestCase;
 
 class AbstractFactoryTest extends TestCase

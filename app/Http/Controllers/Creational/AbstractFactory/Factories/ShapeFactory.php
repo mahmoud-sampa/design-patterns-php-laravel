@@ -1,16 +1,16 @@
 <?php
 
-namespace App\Http\Controllers\Behavioral\AbstractFactory\Factories;
+namespace App\Http\Controllers\Creational\AbstractFactory\Factories;
 
-use App\Http\Controllers\Behavioral\AbstractFactory\Shapes\Rectangle;
-use App\Http\Controllers\Behavioral\AbstractFactory\Shapes\Square;
+use App\Http\Controllers\Creational\AbstractFactory\Shapes\Rectangle;
+use App\Http\Controllers\Creational\AbstractFactory\Shapes\Square;
 
 class ShapeFactory
 {
     /**
      * @param string $shapeType
      *
-     * @return \App\Http\Controllers\Behavioral\AbstractFactory\Shapes\Rectangle|\App\Http\Controllers\Behavioral\AbstractFactory\Shapes\Square|null
+     * @return \App\Http\Controllers\Creational\AbstractFactory\Shapes\Rectangle|\App\Http\Controllers\Creational\AbstractFactory\Shapes\Square|null
      */
     public function getShape(string $shapeType): Rectangle|Square|null
     {

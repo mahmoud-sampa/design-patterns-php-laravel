@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Behavioral\AbstractFactory\Contracts;
+namespace App\Http\Controllers\Creational\AbstractFactory\Contracts;
 
 interface AbstractFactoryContract
 {

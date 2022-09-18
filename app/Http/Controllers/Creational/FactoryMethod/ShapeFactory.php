@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Behavioral\FactoryMethod;
+namespace App\Http\Controllers\Creational\FactoryMethod;
 
-use App\Http\Controllers\Behavioral\FactoryMethod\Contracts\Shape;
-use App\Http\Controllers\Behavioral\FactoryMethod\Shapes\Rectangle;
-use App\Http\Controllers\Behavioral\FactoryMethod\Shapes\Square;
+use App\Http\Controllers\Creational\FactoryMethod\Contracts\Shape;
+use App\Http\Controllers\Creational\FactoryMethod\Shapes\Rectangle;
+use App\Http\Controllers\Creational\FactoryMethod\Shapes\Square;
 
 class ShapeFactory
 {
@@ -18,7 +18,7 @@ class ShapeFactory
     /**
      * Return shape.
      *
-     * @return \App\Http\Controllers\Behavioral\FactoryMethod\Contracts\Shape|null
+     * @return \App\Http\Controllers\Creational\FactoryMethod\Contracts\Shape|null
      */
     public function shape(): ?Shape
     {

@@ -64,20 +64,16 @@
 ```
 ->  is a creational design pattern that lets you construct complex
  objects step by step. The pattern allows you to produce different 
- types and representations of an objectusing the same construction code.
- 
- 
+ types and representations of an object using the same construction code.
 
 ```
-
 
 ### 4- Singleton
 
 ```
+
 -> The Singleton pattern solves two problems at the same time,
  violating the Single Responsibility Principle:
-   
-
 
 ```
 ## Behavioral Patterns
@@ -91,6 +87,4 @@
 -> Template Method is a behavioral design pattern that allows you to defines a skeleton of an algorithm in a
  base class and let subclasses override the steps without changing the overall algorithm’s structure.
    
-
-
 ```
