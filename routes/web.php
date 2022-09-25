@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $shop = new \App\Http\Controllers\Creational\Builder\BuilderApp();
 });
